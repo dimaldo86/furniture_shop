@@ -1,5 +1,4 @@
-@import 'index.css';
-@import 'variables.css';
+@import 'tailwind.css';
 
 @import url('http://fonts.cdnfonts.com/css/satoshi');
 @import url('http://fonts.cdnfonts.com/css/clash-display');
