@@ -14,6 +14,10 @@
 		@apply max-w-[1300px] my-0 mx-auto px-[10px]
 }
 
+#app {
+  @apply overflow-hidden flex flex-col min-h-screen
+}
+
 @layer components {
   .header__top {
     border-color:rgba(0, 0, 0, 0.1)
@@ -28,5 +32,4 @@
     color:#fff;
   }
 }
-
 

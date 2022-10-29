@@ -1,6 +1,7 @@
 <script setup lang='ts'>
 import HeaderTop from '@/components/header/HeaderTop.vue'
 import HeaderNav from '@/components/header/HeaderNav.vue'
+import HeaderMobile from '@/components/header/HeaderMobile.vue'
 
 
 
@@ -10,10 +11,7 @@ import HeaderNav from '@/components/header/HeaderNav.vue'
     <header class="max-w-[1440px] px-7">
         <HeaderTop></HeaderTop>
         <HeaderNav></HeaderNav>
+        <HeaderMobile></HeaderMobile>
     </header>
 
 </template>
-
-<style >
-
-</style>

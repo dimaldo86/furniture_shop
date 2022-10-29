@@ -1,0 +1,42 @@
+interface ILink {
+    name:string,
+    path:string,
+    id:number | string
+}
+export const menuHeaderLinks:ILink[] = [
+     {
+        name:'Home',
+        path:'/',
+        id:1
+    },
+    {
+        name:'Ceramics',
+        path:'/ceramics',
+        id:2
+    },
+    {
+        name:'Tables',
+        path:'/tables',
+        id:3
+    },
+    {
+        name:'Chairs',
+        path:'/chairs',
+        id:4
+    },
+    {
+        name:'Crockery',
+        path:'/crockery',
+        id:5
+    },
+    {
+        name:'Tableware',
+        path:'/tableware',
+        id:6
+    },
+    {
+        name:'Cutlery',
+        path:'/cutlery',
+        id:7
+    },
+]
