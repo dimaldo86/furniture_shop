@@ -9,42 +9,42 @@ export const socialLinks:ISocial[] = [
     {
         id:1,
         name:'facebook',
-        src:'public/img/social/facebook.svg',
+        src:'/assets/img/social/facebook.svg',
         alt:'facebook',
         url:'https://faceboo.com'
     },
     {
         id:2,
         name:'instagram',
-        src:'public/img/social/instagram.svg',
+        src:'/assets/img/social/instagram.svg',
         alt:'instagram',
         url:'https://instagram.com'
     },
     {
         id:3,
         name:'linkedin',
-        src:'public/img/social/linkedin.svg',
+        src:'/assets/img/social/linkedin.svg',
         alt:'linkedin',
         url:' https://www.linkedin.com'
     },
     {
         id:4,
         name:'pinterest',
-        src:'public/img/social/pinterest.svg',
+        src:'/assets/img/social/pinterest.svg',
         alt:'pinterest',
         url:'https://ru.pinterest.com'
     },
     {
         id:5,
         name:'skype',
-        src:'public/img/social/skype.svg',
+        src:'/assets/img/social/skype.svg',
         alt:'skype',
         url:'https://web.skype.com/ru'
     },
     {
         id:6,
         name:'twitter',
-        src:'public/img/social/twitter.svg',
+        src:'/assets/img/social/twitter.svg',
         alt:'twitter',
         url:'http://www.twitter.com'
     }

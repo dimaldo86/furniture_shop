@@ -5,7 +5,7 @@ import { socialLinks } from '@/ts/constants/social'
 
 
 <template>
-    <ul class="flex items-center justify-end">
+    <ul class="flex items-center xs:justify-end">
         <li
             class="mr-6 last:mr-0"
             v-for="link in socialLinks"
@@ -16,6 +16,7 @@ import { socialLinks } from '@/ts/constants/social'
                 class="transition ease-in-out duration-500 opacity-50 hover:opacity-100"
                 >
                 <img
+                    class="max-w-full max-h-full object-cover"
                     :src="link.src"
                     :alt="link.alt"
                 >

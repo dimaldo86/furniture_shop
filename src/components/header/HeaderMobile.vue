@@ -16,7 +16,7 @@ const showMenu = ():boolean => isOpenMenu.value = !isOpenMenu.value
       </a>
       <div class="w-3/4 flex items-center justify-end gap-8">
          <div class="flex w-3/4 items-center h-full justify-end ">
-            <img src="../../assets/img/header/search.svg" alt="search" class="w-[16px] h-[16px]">
+            <img src="/assets/img/header/search.svg" alt="search" class="w-[16px] h-[16px]">
         </div>
          <button
             @click="showMenu"
