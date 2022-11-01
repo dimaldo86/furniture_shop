@@ -13,6 +13,7 @@ module.exports = {
         'title':'#22202E',
         'text':'#5B5676',
         'border':'#4E4D93',
+        'lightGray':'#e0dcdc'
         },
         fontFamily: {
           'satoshi':['Satoshi', 'sans-serif']
