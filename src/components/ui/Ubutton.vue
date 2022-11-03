@@ -1,12 +1,8 @@
 <script setup lang='ts'>
-import { reactive } from 'vue'
 
-const styleSize = reactive({
-  width: '170px',
-  height: '56px'
-})
 
-const props = defineProps({
+
+ const props = defineProps({
     background: {
         type: String,
         default: "bg-lightGray"
@@ -21,7 +17,7 @@ const props = defineProps({
     },
     color: {
         type: String,
-        default: "#2A254B",
+        default: "text-main",
     }
 });
 </script>
@@ -29,10 +25,9 @@ const props = defineProps({
 <template>
     <button
         v-if="type === 'button'"
-        :style="[styleSize]"
         :class="[background, color]"
         :type="type"
-        class="font-satoshi transition duration-500 ease-in-out hover:bg-main hover:text-white"
+        class="font-satoshi md:w-[170px] h-[56px] w-full sm:w-[80%] self-center md:self-start  transition duration-500 ease-in-out hover:bg-main hover:text-white"
     >
         <slot></slot>
     </button>
@@ -47,4 +42,3 @@ const props = defineProps({
         <slot></slot>
     </router-link>
 </template>
-

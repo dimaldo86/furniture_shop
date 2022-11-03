@@ -1,0 +1,95 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "type":"image",
+            "src":"assets/img/listing/dandy-chair-1.jpg",
+            "title":"The Dandy chair",
+            "price":"£155"
+        },
+        {
+            "id":"2",
+            "type":"image",
+            "src":"assets/img/listing/lucy-lamp-1.jpg",
+            "title":"The Lucy Lamp",
+            "price":"£250"
+        },
+        {
+            "id":"3",
+            "type":"image",
+            "src":"assets/img/listing/rustic-vase-1.jpg",
+            "title":"Rustic Vase Set",
+            "price":"£180"
+        },
+        {
+            "id":"4",
+            "type":"image",
+            "src":"assets/img/listing/silky-vase-1.jpg",
+            "title":"The Silky Vase",
+            "price":"£90"
+        },
+        {
+            "id":"5",
+            "type":"image",
+            "src":"assets/img/listing/silky-vase-2.jpg",
+            "title":"The Dandy chair",
+            "price":"£110"
+        },
+        {
+            "id":"6",
+            "type":"image",
+            "src":"assets/img/listing/silky-vase-2.jpg",
+            "title":"The Silky Vase",
+            "price":"£70"
+        },
+        {
+            "id":"7",
+            "type":"image",
+            "src":"assets/img/listing/rustic-vase-2.jpg",
+            "title":"Rustic Vase Set",
+            "price":"£280"
+        },
+        {
+            "id":"2",
+            "type":"image",
+            "src":"assets/img/listing/lucy-lamp-2.jpg",
+            "title":"The Lucy Lamp",
+            "price":"£170"
+        },
+        {
+            "id":"1",
+            "type":"image",
+            "src":"assets/img/listing/dandy-chair-2.jpg",
+            "title":"The Dandy chair",
+            "price":"£230"
+        },
+        {
+            "id":"1",
+            "type":"image",
+            "src":"assets/img/listing/dandy-chair-3.jpg",
+            "title":"The Dandy chair",
+            "price":"£365"
+        },
+        {
+            "id":"1",
+            "type":"image",
+            "src":"assets/img/listing/dandy-chair-4.jpg",
+            "title":"The Dandy chair",
+            "price":"£186"
+        },
+        {
+            "id":"1",
+            "type":"image",
+            "src":"assets/img/listing/dandy-chair-5.jpg",
+            "title":"The Dandy chair",
+            "price":"£325"
+        },
+        {
+            "id":"1",
+            "type":"image",
+            "src":"assets/img/listing/sofa-1.jpg",
+            "title":"The Poplar suede sofa",
+            "price":"£425"
+        }
+    ]
+}

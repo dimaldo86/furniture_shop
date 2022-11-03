@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import { socialLinks } from '@/ts/constants/social'
+import  { socialLinks }  from '@/ts/constants/social'
 </script>
 
 
@@ -18,7 +18,7 @@ import { socialLinks } from '@/ts/constants/social'
                 <img
                     class="max-w-full max-h-full object-cover"
                     :src="link.src"
-                    :alt="link.alt"
+                    :alt="link.name"
                 >
             </a>
 

@@ -1,17 +1,18 @@
 <script setup lang='ts'>
+
 import Ubutton from '@/components/ui/Ubutton.vue'
+
 </script>
 
 <template>
-    <section class="">
-
-        <div class="md:absolute  z-10 bottom-[130px] right-20 2xl:right-[430px] bg-white text-main  w-[530px]  xl:w-[630px] h-[440px] py-8 px-10 lg:py-12 lg:px-14">
-                <h1 class="text-4xl mb-5">Luxury homeware for people who love timeless design quality</h1>
-                <div class="text-text text-lg mb-28">Shop the new Spring 2022 collection today</div>
+    <section class="relative">
+        <div class="flex flex-col justify-between md:absolute right-[8%] bottom-[22%] z-10 2xl:bottom-0 2xl:right-[22%]   bg-white text-main w-full h-auto  md:w-[530px] md:h-[400px] xl:w-[630px]  py-10 px-12 lg:py-12 lg:px-14">
+                <h1 class="text-2xl sm:text-3xl lg:text-4xl mb-10 md:mb-0">Luxury homeware for people who love timeless design quality</h1>
+                <div class="text-text text-lg mb-16 sm:mb-20 md:mb-0">Shop the new Spring 2022 collection today</div>
                 <Ubutton>View collection</Ubutton>
         </div>
-        <div class="md:relative  max-w-[1920px] w-auto h-auto max-h-[700px] mx-auto flex items-center justify-center">
-            <img class="w-full h-full flex-shrink-0 object-cover 2xl:object-fill" src="assets/img/home/hero.png" alt="hero">
+        <div class=" max-w-[1920px] w-auto md:w-[1024px] lg:w-auto md:h-[650px] mx-auto ">
+            <img class="w-full h-full object-cover 2xl:object-fill" src="assets/img/home/hero.png" alt="hero">
         </div>
     </section>
 </template>
