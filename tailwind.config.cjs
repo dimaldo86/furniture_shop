@@ -18,6 +18,9 @@ module.exports = {
         fontFamily: {
           'satoshi':['Satoshi', 'sans-serif']
         },
+        backgroundImage: {
+          'subscribe': "url('public/assets/img/subscribe/subscribe.jpg')",
+        }
     },
   },
   plugins: [],

@@ -1,4 +1,5 @@
 <script setup lang='ts'>
+import Ulink from '@/components/ui/Ulink.vue'
 
 const productProps = defineProps({
     id: {
@@ -33,7 +34,7 @@ const productProps = defineProps({
        </div>
 
 
-        <div class="p-2">
+        <div class="p-2 flex flex-col ">
             <h4 class="text-xl mt-6">{{ title }}</h4>
             <div class="font-satoshi text-lg mt-2">{{ price }}</div>
         </div>

@@ -1,6 +1,6 @@
 <script setup lang='ts'>
 import HomeListingCard from '@/components/home/HomeListingCard.vue'
-import Ubutton from '@/components/ui/Ubutton.vue'
+import Ulink from '@/components/ui/Ulink.vue'
 
 
 const props = defineProps({
@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <section class="py-5">
+    <section class="pt-5 pb-10">
         <div class="container">
             <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5">
                 <HomeListingCard
@@ -26,7 +26,7 @@ const props = defineProps({
                 ></HomeListingCard>
             </div>
             <div class="flex justify-center items-center mt-12">
-                 <Ubutton>View collection</Ubutton>
+                <Ulink to="/allCollection">View collection</Ulink>
             </div>
         </div>
     </section>

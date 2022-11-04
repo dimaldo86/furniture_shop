@@ -6,7 +6,7 @@ import { menuHeaderLinks, menuFooterCompanyLinks, menuFooterSaleLinks} from '@/t
 <template>
     <div class="grid md:grid-cols-4 grid-cols-2 gap-3 sm:py-12 py-6 border-b border-b-border">
          <div class="flex flex-col gap-3">
-            <a href="#" class="text-white md:text-4xl md:leading-7 cursor-pointer transition ease-in-out duration-500 opacity-50 hover:opacity-100 text-3xl leading-7">Avion</a>
+            <router-link to="/" class="text-white md:text-4xl md:leading-7 cursor-pointer transition ease-in-out duration-500 opacity-50 hover:opacity-100 text-3xl leading-7">Avion</router-link>
             <ul class="flex flex-col gap-3 text-white font-satoshi text-sm">
                 <li class="">21 New York Street</li>
                 <li class="">New York City</li>

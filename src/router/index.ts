@@ -1,22 +1,21 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Main from "@/views/Main.vue";
+import Home from "@/views/Home.vue";
 
 const routes = [
 
     {
       path: "/",
-      name: "main",
-      component:Main,
+      name: "home",
+      component:Home,
     },
 
 
-    // {
-    //   path: "/about",
-    //   name: "about",
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () =>
-    //     import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-    // },
+    {
+      path: "/allCollection",
+      name: "allCollection",
+      // which is lazy-loaded when the route is visited.
+      component: () =>import(/* webpackChunkName: "allCollection" */ "../views/AllCollection.vue"),
+    },
 
   ];
 
