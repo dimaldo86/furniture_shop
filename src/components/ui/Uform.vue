@@ -6,9 +6,6 @@ import { ref, computed, reactive } from 'vue' // "from '@vue/composition-api'" i
 import { useVuelidate } from '@vuelidate/core'
 import { required, email, helpers } from '@vuelidate/validators'
 
-
-// const emailField = ref('')
-
 const data = reactive({
 	email:''
 })
@@ -17,7 +14,7 @@ const rules = computed(() => ({
  email: {
     required:helpers.withMessage('This field is required', required),
     email: helpers.withMessage('You entered an invalid email', email),
-	uniqueEmail:helpers.withMessage('such an email already exists', uniqueEmail)
+	uniqueEmail:helpers.withMessage('Such an email already exists', uniqueEmail(email))
   },
 }))
 
@@ -26,39 +23,22 @@ const rules = computed(() => ({
 const v = useVuelidate(rules, data)
 const feedback = ref('')
 
-// const submit = () => {
-// v.value.$touch()
-//   if (v.value.$error) {
-// 	return feedback.value = 'Форма успешна отправлена'
-// 	 emailField.value=""
-// 	}
-
-
-
-//   else {
-// 	feedback.value = 'Форма незарегистрирована'
-// }
-// //   alert('Form submitted' + ' ' + emailField.value)
-// //
-// }
-
-   const submit = ()=> {
-		v.value.$validate()
-		if (!v.value.$error) {
-	// if ANY fail validation
-			feedback.value = 'The form has been successfully submitted'
-			axios.post('http://localhost:3000/emailRegistrations', data)
-			.then(res => {
-				console.log(res.data)
-			})
-		} else {
-			feedback.value = ''
-		}
-		setTimeout(() => {
-			data.email = ''
-			feedback.value = ''
-            }, 1000)
+const submit = ()=> {
+	v.value.$validate()
+	if (!v.value.$error) {
+		feedback.value = 'The form has been successfully submitted'
+		axios.post('http://localhost:3000/emailRegistrations', data)
+		.then(res => {
+			console.log(res.data)
+		})
+	} else {
+		feedback.value = ''
 	}
+	setTimeout(() => {
+		data.email = ''
+		feedback.value = ''
+		}, 1000)
+}
 
 </script>
 
